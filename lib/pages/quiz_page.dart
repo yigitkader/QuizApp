@@ -22,6 +22,10 @@ class QuizPageState extends State<QuizPage> {
   Question currentQuestion;
   Quiz quiz=new Quiz([
     
+    new Question("Elon Musk is a human", true),
+    new Question("Sevgi güzeldir", false),
+    new Question("Flutter güzeldir", true)
+    
   ]);
 
   String questionText;
